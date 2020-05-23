@@ -1,0 +1,62 @@
+/*********************************
+Desenvolvedor: Thales de Azevedo Cardoso;
+Data: 23/05/2020
+*********************************/
+
+
+/*************** ESTILO GERAL ***************/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x	;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/*************** ESTRUTURA GERAL ***************/
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 150px;
+	padding: 15px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+	border: 1px solid red;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	text-indent: -3000px;
+	background: url(../imagens/logo.png) no-repeat center;
+}
+
+/*************** FORMATAÇÃO TOPO ***************/
+
+#topo ul {
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	display: block;
+	font-size: 0.9em;
+	padding: 0.5em 1.5em;
+	color: #fff;
+}

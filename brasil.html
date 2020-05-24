@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 </head>
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
 
 	<div id="container">
 		<div id="topo">
@@ -25,8 +25,99 @@
 				<li><a id="ciencia" href="ciencia.html">Ciência</a></li>
 				<li><a id="fotos" href="fotos.html">Fotos</a></li>
 			</ul>
-		</div>
+		</div><!--// Fechamento Topo -->
+
+		<div id="conteudo">
+			<div id="primario">
+				
+				<div class="caixa destaque">
+					<h2>Destaque</h2>
+					<div class="caixa-conteudo">
+						<h3>Nova Legislação</h3>
+						<img class="imagem-principal" src="imagens/taxi.jpg" width="100%">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="nova-legislacao.html">Leia mais!</a>					
+					</div>
+				</div><!--// Fechamento Caixa -->
+
+				<div class="caixa">
+					<h2>Mundo</h2>
+					<div class="caixa-conteudo">
+						<ul id="lista-noticias">
+							<li>
+								<a href="">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas Tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur</p> 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas Tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur</p> 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas Tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur</p> 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas Tecnologias</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur</p> 
+								</a>
+							</li>
+						</ul>				
+					</div>
+				</div><!--// Fechamento Caixa -->
+			</div><!--// Fechamento Primario -->
+
+			<div id="lateral">
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li><a href="#">José Almeida</a></li>
+							<li><a href="#">Felipe Silva</a></li>
+							<li><a href="#">Renato Rodrigues</a></li>
+							<li><a href="#">Abelardo Silveira</a></li>
+							<li><a href="#">Márcio Mello</a></li>
+							<li><a href="#">João Pedro</a></li>
+							<li><a href="#">Fernando Weis</a></li>
+						</ul>					
+					</div>
+				</div><!--// Fechamento Caixa -->
+
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<form>
+							<div>
+								<label for="Email">Email:</label>
+								<input type="text" name="email" id="email" placeholder="E-mail">
+							</div>
+							<div>
+								<input class="submit" type="submit" value="Cadastrar">
+							</div>
+						</form>		
+					</div>
+				</div><!--// Fechamento Caixa -->
+			</div><!--// Fechamento Lateral -->
+
+		</div><!--// Fechamento Conteudo -->
+	</div><!--// Fechamento Container -->
+
+	<div id="rodape">
+		<h4>
+			&copy Copyright 2000-2020 Notícias Cidade
+		</h4>
 	</div>
+
 
 </body>
 </html>
